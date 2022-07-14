@@ -38,34 +38,34 @@ namespace form_event_overrides
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(44, 58);
+            this.listBox1.Location = new System.Drawing.Point(44, 36);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(180, 129);
+            this.listBox1.Size = new System.Drawing.Size(206, 129);
             this.listBox1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 19);
+            this.label1.Location = new System.Drawing.Point(279, 191);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 25);
+            this.label1.Size = new System.Drawing.Size(112, 25);
             this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.label1.Text = "No Selection";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(44, 208);
+            this.button1.Location = new System.Drawing.Point(44, 186);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 34);
+            this.button1.Size = new System.Drawing.Size(206, 34);
             this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
+            this.button1.Text = "Selection to Label";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Dialogs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(478, 244);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
